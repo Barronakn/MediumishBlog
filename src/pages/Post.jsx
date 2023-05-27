@@ -2,12 +2,15 @@ import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import PostArticle from "../components/PostArticle";
 import authorPic from "/src/assets/avatar.jpeg";
+import article1Img from "/src/assets/9.jpg";
+import article2Img from "/src/assets/6.jpg";
+import article3Img from "/src/assets/8.jpg";
 import { NavLink } from "react-router-dom";
 
 const Post = () => {
   const postArticle = [
     {
-      img: "/src/assets/9.jpg",
+      img: article1Img,
       imgAlt: "article-img",
       title: "10 Things you should know about choosing your house",
       text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
@@ -18,7 +21,7 @@ const Post = () => {
       ReadAlt: "more-icon",
     },
     {
-      img: "/src/assets/6.jpg",
+      img: article2Img,
       imgAlt: "article-img",
       title: "Best galleries in the world with photos",
       text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
@@ -29,7 +32,7 @@ const Post = () => {
       ReadAlt: "more-icon",
     },
     {
-      img: "/../src/assets/8.jpg",
+      img: article3Img,
       imgAlt: "article-img",
       title: "Thinking outside the box can help you prosper",
       text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
