@@ -56,6 +56,7 @@ const Post = () => {
                 className="w-44 h-20 rounded-50"
                 src={author}
                 alt="authorPic"
+                loading="lazy"
               />
             </NavLink>
           </div>

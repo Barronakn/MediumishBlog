@@ -15,7 +15,12 @@ const Story = ({
     <article className="story flex flex-col gap-6">
       <div className="top w-84">
         <NavLink to="#">
-          <img className="object-cover w-84 h-48" src={img} alt={imgAlt} />
+          <img
+            className="object-cover w-84 h-48"
+            src={img}
+            alt={imgAlt}
+            loading="lazy"
+          />
         </NavLink>
       </div>
       <div className="bottom w-80 pt-5 mx-3">
@@ -31,6 +36,7 @@ const Story = ({
                   className="w-12 h-12 rounded-3xl"
                   src={authorPic}
                   alt={authorPicAlt}
+                  loading="lazy"
                 />
               </NavLink>
             </div>
@@ -41,7 +47,7 @@ const Story = ({
               <span>22 July 2017 ~ 6 min read</span>
             </div>
             <NavLink className="ml-8" to="#">
-              <img src={ReadIcon} alt={ReadAlt} />
+              <img src={ReadIcon} alt={ReadAlt} loading="lazy" />
             </NavLink>
           </div>
         </div>

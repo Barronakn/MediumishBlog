@@ -15,7 +15,12 @@ const Features = ({
     <article className="features flex gap-6">
       <div className="left w-48">
         <NavLink to="#">
-          <img className="object-cover w-48 h-64" src={img} alt={imgAlt} />
+          <img
+            className="object-cover w-48 h-64"
+            src={img}
+            alt={imgAlt}
+            loading="lazy"
+          />
         </NavLink>
       </div>
       <div className="right w-80 pt-5">
@@ -31,6 +36,7 @@ const Features = ({
                   className="authorPic w-12 h-12 rounded-3xl"
                   src={authorPic}
                   alt={authorPicAlt}
+                  loading="lazy"
                 />
               </NavLink>
             </div>
@@ -41,7 +47,7 @@ const Features = ({
               <span>22 July 2017 ~ 6 min read</span>
             </div>
             <NavLink className="ml-8" to="#">
-              <img src={ReadIcon} alt={ReadAlt} />
+              <img src={ReadIcon} alt={ReadAlt} loading="lazy" />
             </NavLink>
           </div>
         </div>
