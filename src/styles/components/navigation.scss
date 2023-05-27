@@ -1,0 +1,52 @@
+.border-gray {
+  border: 1px solid rgb(204, 203, 203);
+}
+
+@media screen and (min-width: 1700px) {
+  .navigation {
+    right: 0;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .navigation {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .navigation .logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .navigation ul .search {
+    width: 175px;
+  }
+
+  .navigation ul .search input {
+    width: 125px;
+  }
+
+  .navigation ul li button {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .navigation nav ul {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    gap: 80px;
+  }
+}

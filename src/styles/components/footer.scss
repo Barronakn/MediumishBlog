@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+  .footer.px-32 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  footer .link {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+}
