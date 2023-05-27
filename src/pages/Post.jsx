@@ -36,7 +36,7 @@ const Post = () => {
       authorPic: "/src/assets/avatar.jpeg",
       authorPicAlt: "authorPic",
       authorName: "Sal",
-      ReadIcon: "/src/assets/more.png",
+      ReadIcon: "../assets/more.png",
       ReadAlt: "more-icon",
     },
   ];
