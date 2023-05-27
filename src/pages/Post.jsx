@@ -1,10 +1,12 @@
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import PostArticle from "../components/PostArticle";
-import authorPic from "/src/assets/avatar.jpeg";
+import author from "/src/assets/avatar.jpeg";
 import article1Img from "/src/assets/9.jpg";
 import article2Img from "/src/assets/6.jpg";
 import article3Img from "/src/assets/8.jpg";
+import articleImg from "/src/assets/10.jpg";
+import more from "/src/assets/more.png";
 import { NavLink } from "react-router-dom";
 
 const Post = () => {
@@ -14,10 +16,10 @@ const Post = () => {
       imgAlt: "article-img",
       title: "10 Things you should know about choosing your house",
       text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-      authorPic: "/src/assets/avatar.jpeg",
+      authorPic: author,
       authorPicAlt: "authorPic",
       authorName: "Sal",
-      ReadIcon: "/src/assets/more.png",
+      ReadIcon: more,
       ReadAlt: "more-icon",
     },
     {
@@ -25,10 +27,10 @@ const Post = () => {
       imgAlt: "article-img",
       title: "Best galleries in the world with photos",
       text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-      authorPic: "/src/assets/avatar.jpeg",
+      authorPic: author,
       authorPicAlt: "authorPic",
       authorName: "Sal",
-      ReadIcon: "/src/assets/more.png",
+      ReadIcon: more,
       ReadAlt: "more-icon",
     },
     {
@@ -36,10 +38,10 @@ const Post = () => {
       imgAlt: "article-img",
       title: "Thinking outside the box can help you prosper",
       text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-      authorPic: "/src/assets/avatar.jpeg",
+      authorPic: author,
       authorPicAlt: "authorPic",
       authorName: "Sal",
-      ReadIcon: "/src/assets/more.png",
+      ReadIcon: more,
       ReadAlt: "more-icon",
     },
   ];
@@ -52,7 +54,7 @@ const Post = () => {
             <NavLink to="#">
               <img
                 className="w-44 h-20 rounded-50"
-                src={authorPic}
+                src={author}
                 alt="authorPic"
               />
             </NavLink>
@@ -81,7 +83,7 @@ const Post = () => {
         <h1 className="text-4xl font-bold my-10">
           18 Things You Should Learn Before Moving Into a New Home
         </h1>
-        <img src="/src/assets/10.jpg" alt="article-image" />
+        <img src={articleImg} alt="article-image" />
         <div className="text-xl">
           <p className="my-6">
             Holy grail funding non-disclosure agreement advisor ramen
