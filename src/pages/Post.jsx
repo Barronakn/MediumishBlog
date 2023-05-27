@@ -29,14 +29,14 @@ const Post = () => {
       ReadAlt: "more-icon",
     },
     {
-      img: "/src/assets/8.jpg",
+      img: ".././assets/8.jpg",
       imgAlt: "article-img",
       title: "Thinking outside the box can help you prosper",
       text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
       authorPic: "/src/assets/avatar.jpeg",
       authorPicAlt: "authorPic",
       authorName: "Sal",
-      ReadIcon: "../assets/more.png",
+      ReadIcon: "/src/assets/more.png",
       ReadAlt: "more-icon",
     },
   ];
